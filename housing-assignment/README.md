@@ -1,12 +1,3 @@
-# Java Housing Application
-
-A Java application for managing housing properties.
-
-## Requirements
-
-- Java JDK 8 or higher
-- Make (available on most Unix systems and can be installed on Windows)
-
 ## Running the Application
 
 ### Using Make (Recommended)
