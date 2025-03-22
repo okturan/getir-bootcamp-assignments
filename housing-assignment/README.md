@@ -1,3 +1,36 @@
+## Example Output
+
+```bash
+===== TOTAL PRICES =====
+Total price of all Houses:              ₺10.500.000
+Total price of all Villas:              ₺24.000.000
+Total price of all Summer Houses:       ₺16.000.000
+Total price of all types of properties: ₺50.500.000
+
+===== AVERAGE SQUARE METERS =====
+Average square meters of Houses:                  140.00 m²
+Average square meters of Villas:                  300.00 m²
+Average square meters of Summer Houses:           200.00 m²
+Average square meters of all types of properties: 213.33 m²
+
+===== FILTERED PROPERTIES =====
+Properties with 3 rooms and 1 living room:
+        House [price=3.000.000, squareMeters=120, numberOfRooms=3, numberOfLivingRooms=1]
+        House [price=3.500.000, squareMeters=140, numberOfRooms=3, numberOfLivingRooms=1]
+
+Properties with 4 rooms and 1 living room:
+        House [price=4.000.000, squareMeters=160, numberOfRooms=4, numberOfLivingRooms=1]
+        SummerHouse [price=4.500.000, squareMeters=180, numberOfRooms=4, numberOfLivingRooms=1]
+        SummerHouse [price=5.000.000, squareMeters=200, numberOfRooms=4, numberOfLivingRooms=1]
+
+Properties with 5 rooms and 2 living rooms:
+        Villa [price=7.000.000, squareMeters=250, numberOfRooms=5, numberOfLivingRooms=2]
+        SummerHouse [price=6.500.000, squareMeters=220, numberOfRooms=5, numberOfLivingRooms=2]
+
+Properties with 10 rooms and 5 living rooms:
+        No properties found with these criteria
+```
+
 ## Running the Application
 
 ### Using Make (Recommended)
